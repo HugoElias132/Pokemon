@@ -20,10 +20,7 @@ class Program
 
         for (int i = 0; i < pokemon.Length; i++)
         {
-            int position = Array.IndexOf(pokemon, pokemon[i]);
-            position++;
-            
-            Console.WriteLine((pokemon [i]) + " " + position);
+            Console.WriteLine((i + 1).ToString() + " " + pokemon[i]);
         }
         
         Console.WriteLine("il y a " + pokemon.Length + " pokemon dans l'équipe");
